@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+header{
+    background-image: url("1\ \(5\).png");
+    width: 100%;
+    height: 875px;
+    background-size: cover;
+    
+
+}
+.navbar{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar_text{
+    display: flex;
+    gap: 30px;
+}
+a{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-transform: uppercase; 
+    color: white;
+    transition: all 0.3s;
+
+}
+a:hover{
+    color:  #F57520;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.navbar_icons{
+    display: flex;
+    gap: 30px;
+}
+.navbar_icons-style{
+    width: 24px;
+    height: 24px;
+    gap: 16px;
+    
+}
+.showcase{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 679px;
+    height: 454px;
+    top: 185px;
+    left: 320px;
+    gap: 48px;
+
+}
+.showcase_text{
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 123%;
+    letter-spacing: 2%;
+    color: white;
+
+}
+.showcase_text2{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 1%;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.showcase_button{
+    
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color:  #F57520;
+    color: white;
+    transition: all 0.3s;
+
+}
+.showcase_button:hover{
+    background-color:  white;
+    transition: all 0.3s;
+    cursor: pointer;
+    color: black;
+}
+main{
+    background-color: gray;
+    padding-top:50px ;
+}
+h1{
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 123%;
+    letter-spacing: 5%;
+   
+
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.menu_box{
+    width: 400px;
+    height: 462px;
+    top: 1160px;
+    left: 320px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    transition: all 0.3s;
+}
+.menu_box:hover{
+    background-color: #F57520;
+    color: black;
+    transition: all 0.3s;
+    cursor: pointer;
+ 
+}
+.menu_box_number{
+    padding: 30px;
+    width: 88px;
+    height: 26px;
+    top: 219px;
+    left: 27px;
+
+ 
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+
+}
+.menu_box_text{
+    padding: 30px;
+    width: 315px;
+    height: 87px;
+    top: 295px;
+    left: 27px;
+
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 1%;
+    
+
+}
+.menu_box_img{
+    border-radius: 10px 10px 1px 1px;
+}
+.registration{
+    background-color:  #F57520;
+    width: 100%px;
+    height: 500px;
+    display: flex;
+  
+
+
+}
+.registration_input{
+    padding-top: 30px;
+    padding-left: 100px;
+    color: white;
+
+}
+.registration_input_text{
+
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 123%;
+    letter-spacing: 5%;
+    padding-bottom: 45px;
+
+}
+.registration_image{
+    width: 10000px;
+}
+.registration_image_img{
+    width: 835px;
+    height: 500px;
+    
+
+}
+form{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+input{
+    width: 250px;
+    height: 20px;
+    top: 242px;
+    left: 314px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    border: none;
+    
+
+}
+.sss{
+    text-align: start;
+    width: 545px;
+    height: 120px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    gap: 10px;
+
+}
+.ddd{
+    width: 545px;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+    top: 2869px;
+
+}
+footer{
+    padding-top: 100px;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_text{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    color: white;
+}
+.name1_text{
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 1%;
+
+}
+.name1_text2{
+    padding-top: 30px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    transition: all 0.3s;
+}
+.name1_text2:hover{
+    color:  #F57520;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
